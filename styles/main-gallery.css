@@ -1,0 +1,14 @@
+main section.gallery {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 24px;
+  justify-content: center;
+  padding-block: 24px;
+}
+
+main section.gallery img {
+  width: 286px;
+  flex: 1 1 auto;
+  height: 286px;
+  object-fit: cover;
+}
